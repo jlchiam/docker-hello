@@ -6,12 +6,13 @@ pushed to [Docker Hub
 Run with:
 
 `docker run -d -p 8080:8080 u1ih/hello`
+This executes the file image Uli created on docker hub
 
 Steps:
 
 ## 1: Get Source
 
-`git clone https://github.com/u1i/docker-hello`
+`git clone https://github.com/jlchiam/docker-hello.git`
 
 ## 2: Make changes
 
