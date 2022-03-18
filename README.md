@@ -1,7 +1,3 @@
-# pc3showandtell 
-
-I have not really figured out what I wanted to do ...
-
 # First, I will try something very simple, which is to use Uli's github Hello
 
 Run with:
