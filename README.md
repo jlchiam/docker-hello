@@ -1,6 +1,8 @@
 # pc3showandtell Docker Container
 
-I have not really figured out what I wanted to do ... preferably something Fintech related from the Docker Hub marketplace.
+I have not really figured out what I wanted to do ...
+
+# First, I will try something very simple, which is to use Uli's github Hello
 
 Run with:
 
