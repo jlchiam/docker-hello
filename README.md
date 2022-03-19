@@ -54,6 +54,7 @@ git clone https://github.com/GITHUB_USERNAME/cloud-build-samples.git
 6. Still on Google Cloud Console, on the "Triggers" page, click on "Create Trigger". Follow the instructions to create a "push" trigger.
 7. I use VS Code on my desktop. Rightfully should Git Clone onto my Google Cloud Shell, but I was unsure about the Workspace organization. Hence, on my desktop, open VS Code, git clone onto my chosen directory.
 8. Make a change to index.html, stage and commit the change.
+
    <img width="458" alt="100 docker hello index" src="https://user-images.githubusercontent.com/11884697/159124414-cadc70f2-46f6-4632-b545-efa250f0ed33.PNG">
 
 9. On my docker-hello git hub page, open up the app folder and index.html has been changed.
