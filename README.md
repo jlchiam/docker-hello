@@ -1,7 +1,7 @@
 # First, I will try something very simple, which is to use Uli's github Hello
 
 ```
-Steps 1-5 is same as Uli's.
+Steps 1-5 is same as Uli 's.
 Step 6 onwards is using Google Cloud Platform Trigger
 ```
 
