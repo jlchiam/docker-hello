@@ -25,7 +25,8 @@ From Google Cloud Shell Editor, open up docker-hello/app/index.html and make som
 ## 3: Build Container
 change into the directory: `cd docker-hello`
 
-`docker build . -t myhello
+`docker build . -t myhello`
+
 - Build an image from a Dockerfile
 - When the URL parameter points to the location of a Git repository, the repository acts as the build context. The system recursively fetches the repository and its submodules. The commit history is not preserved. A repository is first pulled into a temporary directory on your local host. After that succeeds, the directory is sent to the Docker daemon as the context. Local copy gives you the ability to access private repositories using local user credentials, VPN’s, and so forth.
 - --tag , -t		Name and optionally a tag in the 'name:tag' format`
