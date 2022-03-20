@@ -60,9 +60,28 @@ git clone https://github.com/GITHUB_USERNAME/cloud-build-samples.git
 9. On my docker-hello git hub page, open up the app folder and index.html has been changed.
     <img width="699" alt="102 docker hello changed in github" src="https://user-images.githubusercontent.com/11884697/159124545-dd86a6c7-c3ce-40aa-803f-89e3f504ec64.PNG">
 
+## 7. Verify CI/CD
 
-10. On Google Cloud Console, go to "Cloud Build -> History" and the job has run.
+1. On Google Cloud Console, go to "Cloud Build -> History" and the job has run.
     <img width="593" alt="110 docker hello job run" src="https://user-images.githubusercontent.com/11884697/159124401-2cb13f08-6a98-4d17-a1e5-45dfd4fe1bcc.PNG">
+
+2. On Github code page, app/index.html shows the commit comment "change text" with the timing updated.
+
+   <img width="293" alt="120 change text commit" src="https://user-images.githubusercontent.com/11884697/159154004-1e4ab1d3-ef40-4669-a296-c1ec2f2a92ee.PNG">
+
+3. Navigate to Github Actions page, the equivalent job with the commit comment "change text" is run.
+
+   <img width="485" alt="130 github actions change text" src="https://user-images.githubusercontent.com/11884697/159154024-ae5cadc8-3024-401f-b199-959aaf129e87.PNG">
+
+4. Open up the job, and it shows a "build". Click on the "build" and it shows five steps. You can further click into each of the steps to see more details.
+
+   - Set up job
+   - Run actions/checkout@v2
+   - Build the Docker image
+   - Post Run actions/checkout@v2
+   - Complete job
+
+   <img width="461" alt="140 github actions build" src="https://user-images.githubusercontent.com/11884697/159154045-07dc2535-2cf2-4902-96f5-99e1f2aa5045.PNG">
 
 
 
